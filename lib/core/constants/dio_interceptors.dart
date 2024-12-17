@@ -1,8 +1,8 @@
 import 'package:dio/dio.dart';
-import 'logger.dart';
+import 'package:logger/logger.dart';
 
 class ApiInterceptor extends Interceptor {
-  CustomLogger logger;
+  Logger logger;
   ApiInterceptor({
     required this.logger,
   });

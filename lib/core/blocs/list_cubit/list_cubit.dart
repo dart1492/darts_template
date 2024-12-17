@@ -1,5 +1,5 @@
-import 'package:darts_template_right/core/index.dart';
-import 'package:darts_template_right/models/index.dart';
+import '../../../models/index.dart';
+import '../../index.dart';
 
 part 'list_state.dart';
 

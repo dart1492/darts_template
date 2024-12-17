@@ -1,9 +1,10 @@
 import 'dart:async';
-import 'package:darts_template_right/core/index.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
-class AsyncBlocListener<T> extends StatelessWidget {
+import '../../index.dart';
+
+class AsyncCubitListener<T> extends StatelessWidget {
   final Function(T)? onSuccess;
   final Function(Failure)? onError;
   final Function()? onLoading;
@@ -11,7 +12,7 @@ class AsyncBlocListener<T> extends StatelessWidget {
 
   final Widget? child;
 
-  const AsyncBlocListener({
+  const AsyncCubitListener({
     super.key,
     this.child,
     this.onError,
@@ -43,7 +44,7 @@ class AsyncBlocListener<T> extends StatelessWidget {
 }
 
 class MultiAsyncBlocListener extends StatefulWidget {
-  final List<AsyncBlocListener> listeners;
+  final List<AsyncCubitListener> listeners;
   final Widget? child;
   const MultiAsyncBlocListener({
     super.key,

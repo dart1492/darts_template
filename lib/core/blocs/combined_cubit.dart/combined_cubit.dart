@@ -1,8 +1,8 @@
 import 'dart:async';
 import 'package:async/async.dart';
-
-import 'package:darts_template_right/core/index.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+
+import '../../index.dart';
 
 /// designed specifically to register multiple cubits inside of it and then listen to
 /// execute function when every registered cubit has RequestStatus.success  or RequestStatus.error status

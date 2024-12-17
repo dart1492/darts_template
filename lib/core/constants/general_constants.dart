@@ -1,4 +1,5 @@
+//TODO: ADJUST TO THE APP'S CONSTANTS
 class GeneralConstants {
-  //TODO: ADJUST TO THE APP'S TITLE
   static const String appTitle = "";
+  static const String fontFamily = "";
 }

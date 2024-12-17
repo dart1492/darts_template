@@ -1,13 +1,15 @@
-import 'package:darts_template_right/core/index.dart';
 import 'package:dio/dio.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:get_it/get_it.dart';
+import 'package:logger/logger.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+
+import '../index.dart';
 
 final sl = GetIt.instance;
 
 Future<void> createLocator() async {
-  sl.registerSingleton<CustomLogger>(CustomLogger());
+  sl.registerSingleton<Logger>(Logger());
 
   _registerDio();
 

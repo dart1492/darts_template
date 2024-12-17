@@ -1,5 +1,6 @@
-import 'package:darts_template_right/core/index.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+
+import '../../index.dart';
 
 part 'async_state.dart';
 

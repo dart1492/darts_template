@@ -1,8 +1,7 @@
-import 'package:darts_template_right/core/index.dart';
 import 'package:fading_edge_scrollview/fading_edge_scrollview.dart';
 import 'package:flutter/material.dart';
 
-import 'async_bloc_builder.dart';
+import '../../index.dart';
 
 //TODO: ADJUST ACCORDING TO THE SPECIFIC APPS'S DESIGN AND REQUIREMENTS
 class ListCubitBuilder<ItemsType, FiltersType> extends StatefulWidget {
@@ -55,7 +54,7 @@ class _ListCubitBuilderState<ItemsType, FiltersType>
 
   @override
   Widget build(BuildContext context) {
-    return AsyncBlocBuilder<ListState<ItemsType, FiltersType>>(
+    return AsyncCubitBuilder<ListState<ItemsType, FiltersType>>(
       cubit: widget.paginatedListAC,
       onError: (failure) {
         return widget.errorPlaceholder ?? const SizedBox();
