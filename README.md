@@ -1,16 +1,10 @@
 # darts_template_right_right
 
-A new Flutter project.
+A tempalte for the Flutter app by Dart.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+1. Copy the repository on the local pc.
+2. Fill out the package_rename_config.yaml file with required values. Run the `dart run package_rename`.
+3. Remove the origin and set another one.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
