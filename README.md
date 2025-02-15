@@ -9,3 +9,6 @@ A tempalte for the Flutter app designed specifically to fit my architecture.
 3. Connect to your point of origin.
 4. Modify the constants/general_constants.dart and everything else that can be customized.
 
+## Details on the setup:
+
+- This project uses fvm - so the settings.json states the path to the sdk, created by the fvm. There are also some fvm related files for the setup
